@@ -1,0 +1,26 @@
+{
+    "powers": [
+	"actii:chirp",
+	"actii:wings",
+	"actii:small_flap",
+	"actii:small",
+	"origins:sprint_jump",
+	"actii:parrot_fall",
+	"actii:wheat_seeds",
+	"actii:melon_seeds",
+	"actii:pumpkin_seeds",
+	"actii:beetroot_seeds",
+	"actii:cocoa_beans",
+	"actii:cookie_death",
+	"origins:more_kinetic_damage",
+	"actii:fragile_body",
+	"origins:vegetarian",
+	"origins:light_armor",
+	"actii:thefinalsquawk"
+    ],
+    "icon": "minecraft:melon_slice",
+    "order": 4,
+    "impact": 2,
+    "name": "Parrot",
+    "description": "A small, feathered, tropical bird. Cannot consume chocolate."
+}

@@ -1,0 +1,12 @@
+{
+    "replace": true,
+    "name": "Origin Variant",
+    "missing_name": "None",
+    "missing_description": "h o w .",
+    "order": 1,
+    "allow_random": false,
+    "auto_choose": true,
+    "origins": [
+        "custom:no_variant"
+    ]
+}

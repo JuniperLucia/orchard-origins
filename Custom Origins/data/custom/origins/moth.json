@@ -1,0 +1,16 @@
+{
+    "name": "Moth",
+    "description": "lamp <3",
+    "order": 5,
+    "impact": 2,
+    "icon": "chipped:soul_lantern_3",
+    "powers": [
+        "custom:nightvision",
+        "custom:moth_size",
+        "custom:moth_wings",
+        "custom:moth_flap",
+        "custom:eat_sugar",
+        "custom:sugar_diet"
+    ],
+    "loading_priority": 100
+}

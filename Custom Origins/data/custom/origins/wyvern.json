@@ -1,0 +1,14 @@
+{
+    "name": "Wyvern",
+    "description": "A gold-loving dragon with the powers of a deity.",
+    "order": 5,
+    "impact": 3,
+    "icon": "the_aether:golden_feather",
+    "powers": [
+        "custom:wyvern_size",
+        "custom:wyvern_flight",
+        "custom:wyvern_fly"
+    ],
+    "loading_priority": 100,
+    "hidden": true
+}

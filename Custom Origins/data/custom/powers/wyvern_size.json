@@ -1,0 +1,17 @@
+{
+    "type": "origins:multiple",
+    "name": "Dragon Sized",
+    "description": "You have the body of a wyvern.",
+    "scale": {
+        "type": "extraorigins:modify_size",
+        "scale": 1.5
+    },
+    "motion": {
+        "type": "extraorigins:modify_size",
+        "scale_types": [
+            "pehkui:motion",
+            "pehkui:health"
+        ],
+        "scale": 1.5
+    }
+}

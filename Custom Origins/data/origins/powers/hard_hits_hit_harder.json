@@ -1,0 +1,19 @@
+{
+    "type": "origins:modify_damage_dealt",
+    "name": "Hard Hitting",
+    "description": "Axes deal more damage than usual, due to your strength.",
+    "condition": {
+        "type": "origins:equipped_item",
+        "equipment_slot": "mainhand",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "tag": "fabric:axes"
+            }
+        }
+    },
+    "modifier": {
+        "operation": "multiply_total",
+        "value": 0.2
+    }
+}
