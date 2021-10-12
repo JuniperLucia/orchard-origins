@@ -1,0 +1,11 @@
+{
+    "name": "Fungus",
+    "description": "A humanoid mushroom created in an alchemist's laboratory. Once forgotten, it now rules over the decomposers.",
+    "order": 6,
+    "impact": 2,
+    "icon": "promenade:white_mushroom",
+    "powers": [
+        "custom:fungus_size"
+    ],
+    "loading_priority": 100
+}
