@@ -5,7 +5,11 @@
     "impact": 2,
     "icon": "promenade:white_mushroom",
     "powers": [
-        "custom:fungus_size"
+        "custom:fungus_size",
+        "custom:fungus_poison",
+        "custom:fungus_resistance",
+        "custom:fungus_spores",
+        "custom:weakness"
     ],
     "loading_priority": 100
 }
