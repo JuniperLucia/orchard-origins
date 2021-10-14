@@ -1,0 +1,10 @@
+{
+    "type": "origins:effect_immunity",
+    "name": "Fungal Resistance",
+    "description": "You take no damage from effects that would normally harm you due to your toxic nature.",
+    "effects": [
+        "minecraft:instant_damage",
+        "minecraft:wither",
+        "minecraft:poison"
+    ]
+}

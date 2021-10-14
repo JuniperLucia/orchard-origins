@@ -4,20 +4,20 @@
     "description": "Due to your rather miniscule origins, you lack a bit in the height department.",
     "scale": {
         "type": "extraorigins:modify_size",
-        "scale": 0.7
+        "scale": 0.5
     },
     "motion": {
         "type": "extraorigins:modify_size",
         "scale_types": [
             "pehkui:motion"
         ],
-        "scale": 0.9
+        "scale": 0.8
     },
     "health": {
         "type": "extraorigins:modify_size",
         "scale_types": [
             "pehkui:health"
         ],
-        "scale": 0.6
+        "scale": 0.5
     }
 }
