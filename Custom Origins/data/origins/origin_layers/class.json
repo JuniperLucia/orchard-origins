@@ -1,0 +1,13 @@
+{
+    "replace": true,
+    "name": "Class",
+    "missing_name": "None",
+    "missing_description": "h o w .",
+    "order": 2,
+    "allow_random": true,
+    "exclude_random": [
+    ],
+    "auto_choose": false,
+    "origins": [
+    ]
+}

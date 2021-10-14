@@ -10,7 +10,9 @@
         "custom:moth_wings",
         "custom:moth_flap",
         "custom:eat_sugar",
-        "custom:sugar_diet"
+        "custom:sugar_diet",
+        "custom:flight_stamina",
+        "custom:flight_stamina_regen"
     ],
     "loading_priority": 100
 }

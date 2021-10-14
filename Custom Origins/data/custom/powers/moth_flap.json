@@ -9,8 +9,9 @@
             "space": "local"
         },
         {
-            "type": "origins:exhaust",
-            "amount": 0.7
+            "type": "origins:change_resource",
+            "resource": "custom:flight_stamina",
+            "change": -5
         }]
     },
     "cooldown": 15,
@@ -20,5 +21,11 @@
     },
     "key": {
         "key": "key.origins.primary_active"
+    },
+    "condition": {
+        "type": "origins:resource",
+        "resource": "custom:flight_stamina",
+        "comparison": ">",
+        "compare_to": 0
     }
 }
