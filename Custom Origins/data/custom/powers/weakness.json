@@ -1,0 +1,9 @@
+{
+    "type": "origins:modify_break_speed",
+    "name": "Weakness",
+    "description": "You are weaker than usual and break blocks at a slower rate.",
+    "modifier": {
+        "operation": "multiply_base",
+        "value": -0.8
+    }
+}

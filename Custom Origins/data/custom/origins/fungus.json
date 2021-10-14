@@ -8,7 +8,8 @@
         "custom:fungus_size",
         "custom:fungus_poison",
         "custom:fungus_resistance",
-        "custom:fungus_spores"
+        "custom:fungus_spores",
+        "custom:weakness"
     ],
     "loading_priority": 100
 }
