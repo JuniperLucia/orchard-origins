@@ -9,5 +9,7 @@
     ],
     "auto_choose": false,
     "origins": [
+        "class:classless",
+        "class:knight"
     ]
 }
