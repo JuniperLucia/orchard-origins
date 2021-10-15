@@ -1,0 +1,12 @@
+{
+    "name": "Officer",
+    "description": "A member of the Royal Officer Corps; they are able to raise morale and turn the tide of battles.",
+    "order": 1,
+    "impact": 2,
+    "icon": "minecraft:spyglass",
+    "powers": [
+        "class:officer_marshal",
+        "class:officer_kit"
+    ],
+    "loading_priority": 100
+}
