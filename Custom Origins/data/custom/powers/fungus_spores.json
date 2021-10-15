@@ -1,20 +1,31 @@
 {
-    "type": "origins:self_action_on_hit",
-    "name": "Fungal Spores",
-    "description": "Upon your death you release a cloud of toxic spores, injuring any unlucky fellow that was close enough.",
+    "type": "origins:active_self",
+    "name": "Spore Burst",
+    "description": "You are able to blow yourself up, creating a large eruption and contaminating a large area around you with toxins.",
     "entity_action": {
-        "type": "origins:spawn_effect_cloud",
-        "radius": 5,
-        "wait_time": 0,
-        "effect": {
-            "effect": "minecraft:poison",
-            "amplifier": 1,
-            "duration": 200
-        }
+        "type": "origins:and",
+        "actions": [{
+            "type": "origins:explode",
+            "power": 10,
+            "destruction_type": "none"
+        },
+        {
+            "type": "origins:spawn_effect_cloud",
+            "effect": {
+                "effect": "minecraft:poison",
+                "amplifier": 1,
+                "duration": 400
+            },
+            "radius": 15,
+            "wait_time": 50
+        }]
     },
-    "condition": {
-        "type": "origins:health",
-        "comparison": "<",
-        "compare_to": 1
+    "cooldown": 12000,
+    "hud_render": {
+        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_01.png",
+        "bar_index": 1
+    },
+    "key": {
+        "key": "key.origins.primary_active"
     }
 }
