@@ -5,7 +5,7 @@
     "entity_action": {
         "type": "origins:spawn_effect_cloud",
         "radius": 15.0,
-        "wait_time": 500,
+        "wait_time": 10,
         "effect": {
             "effect": "minecraft:strength",
             "amplifier": 1,

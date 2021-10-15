@@ -10,6 +10,7 @@
     "auto_choose": false,
     "origins": [
         "class:classless",
-        "class:knight"
+        "class:knight",
+        "class:officer"
     ]
 }
