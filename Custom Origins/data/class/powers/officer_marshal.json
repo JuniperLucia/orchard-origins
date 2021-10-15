@@ -1,0 +1,21 @@
+{
+    "type": "origins:action_on_item_use",
+    "name": "Marshal",
+    "description": "Once you right click with an extended stick, nearby troops get a significant morale boost.",
+    "entity_action": {
+        "type": "origins:spawn_effect_cloud",
+        "radius": 15.0,
+        "wait_time": 500,
+        "effect": {
+            "effect": "minecraft:strength",
+            "amplifier": 1,
+            "duration": 300
+        }
+    },
+    "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "item": "gateofbabylon:extended_stick"
+        }
+    }
+}
