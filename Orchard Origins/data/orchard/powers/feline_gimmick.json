@@ -1,0 +1,6 @@
+{
+    "name": "Small Frame",
+    "description": "Due to your small frame, you can crawl through tunnels faster than usual.",
+    "type": "extraorigins:modify_size",
+    "scale": 0.8
+}

@@ -5,14 +5,14 @@
     "impact": 2,
     "icon": "dirt",
     "powers": [
-        "custom:moth_size",
-        "custom:moth_wings",
-        "custom:moth_flap",
-        "custom:eat_sugar",
-        "custom:sugar_diet",
-        "custom:moth_light",
-        "custom:flight_stamina",
-        "custom:flight_stamina_regen"
+        "legacy:moth_size",
+        "legacy:moth_wings",
+        "legacy:moth_flap",
+        "legacy:eat_sugar",
+        "legacy:sugar_diet",
+        "legacy:moth_light",
+        "legacy:flight_stamina",
+        "legacy:flight_stamina_regen"
     ],
     "loading_priority": 100
 }

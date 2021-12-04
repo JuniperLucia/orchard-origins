@@ -1,0 +1,6 @@
+{
+    "name": "Cat Vision",
+    "description": "As a feline, your night senses are stronger.",
+    "type": "origins:night_vision",
+    "strength": 0.4
+}

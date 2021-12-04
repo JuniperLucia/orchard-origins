@@ -1,0 +1,13 @@
+{
+    "type": "origins:modify_swim_speed",
+    "modifier": {
+        "name": "Modify Crawl Speed",
+        "value": 3
+    },
+    "condition": {
+        "type": "origins:submerged_in",
+        "fluid": "minecraft:water",
+        "inverted": true
+    },
+    "hidden": true
+}

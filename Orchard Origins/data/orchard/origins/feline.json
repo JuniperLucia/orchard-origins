@@ -1,0 +1,15 @@
+{
+    "loading_priority": 99,
+    "name": "Feline",
+    "description": "A furry predator that has a divine aura to humans.",
+    "order": 1,
+    "impact": 1,
+    "icon": "minecraft:orange_wool",
+    "powers": [
+        "orchard:feline_active",
+        "orchard:feline_passive",
+        "orchard:feline_gimmick",
+        "orchard:feline_gimmick2",
+        "orchard:feline_wild"
+    ]
+}

@@ -8,6 +8,9 @@
     "exclude_random": [
     ],
     "origins": [
-        "orchard:human"
+        "orchard:human",
+        "orchard:feline",
+        "legacy:fungus",
+        "legacy:moth"
     ]
 }
