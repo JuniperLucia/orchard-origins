@@ -6,7 +6,8 @@
     "icon": "minecraft:spyglass",
     "powers": [
         "class:officer_marshal",
-        "class:officer_kit"
+        "class:officer_kit",
+        "class:extended_stick_use"
     ],
     "loading_priority": 100
 }
