@@ -1,13 +1,35 @@
 {
-    "type": "origins:modify_swim_speed",
-    "modifier": {
-        "name": "Modify Crawl Speed",
-        "value": 3
-    },
-    "condition": {
-        "type": "origins:submerged_in",
-        "fluid": "minecraft:water",
-        "inverted": true
-    },
-    "hidden": true
+    "name": "Carnivore",
+    "description": "As a feline, you are only able to properly eat meat.",
+    "type": "origins:prevent_item_use",
+    "item_condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:or",
+          "conditions": [
+            {
+              "type": "origins:ingredient",
+              "ingredient": {
+                "tag": "origins:meat"
+              }
+            },
+            {
+              "type": "origins:meat"
+            }
+          ],
+          "inverted": true
+        },
+        {
+          "type": "origins:food"
+        },
+        {
+          "type": "origins:ingredient",
+          "ingredient": {
+            "tag": "origins:ignore_diet"
+          },
+          "inverted": true
+        }
+      ]
+    }
 }

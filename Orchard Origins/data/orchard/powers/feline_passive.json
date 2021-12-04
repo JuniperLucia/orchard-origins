@@ -6,9 +6,9 @@
         "type": "origins:name",
         "name": "fall"
     },
-    "modifier": {
-        "name": "Reduced Fall Damage",
-        "operation": "multiply_base",
-        "value": -0.8
+    "modifiers": {
+        "name": "Negate Some Fall Damage",
+        "operation": "addition",
+        "value": -12
     }
 }
