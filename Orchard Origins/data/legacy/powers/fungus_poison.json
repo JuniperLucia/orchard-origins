@@ -1,0 +1,14 @@
+{
+    "type": "origins:attacker_action_when_hit",
+    "name": "Death Cap",
+    "description": "When you're hit by an attacker, a cloud of spores attacks them.",
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:wither",
+            "duration": 100,
+            "amplifier": 0
+        }
+    },
+    "cooldown": 200
+}

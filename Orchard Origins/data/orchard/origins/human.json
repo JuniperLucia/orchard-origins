@@ -1,0 +1,13 @@
+{
+    "loading_priority": 99,
+    "name": "Human",
+    "description": "A powerless creature with the potential to become much more.",
+    "order": 0,
+    "impact": 0,
+    "icon": {
+        "item": "minecraft:player_head"
+    },
+    "powers": [
+        "orchard:short"
+    ]
+}

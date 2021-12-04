@@ -1,0 +1,10 @@
+{
+  "type": "origins:attribute",
+  "name": "Fragile",
+  "description": "Your small body and hollow bones makes you much weaker.",
+  "modifier": {
+    "attribute": "minecraft:generic.max_health",
+    "value": -8.0,
+    "operation": "addition"
+  }
+}

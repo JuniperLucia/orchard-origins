@@ -1,0 +1,6 @@
+{
+    "type": "origins:elytra_flight",
+    "name": "Wyvern Flight",
+    "description": "You are capable of flying at great speeds by controlling the weather.",
+    "render_elytra": false
+}

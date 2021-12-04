@@ -1,0 +1,13 @@
+{
+    "replace": true,
+    "name": "Origin",
+    "missing_name": "None",
+    "missing_description": "h o w .",
+    "order": 0,
+    "allow_random": false,
+    "exclude_random": [
+    ],
+    "origins": [
+    ],
+    "hidden": true
+}

@@ -1,0 +1,31 @@
+{
+    "type": "origins:active_self",
+    "hidden": true,
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [{
+            "type": "origins:add_velocity",
+            "z": 0.45,
+            "space": "local"
+        },
+        {
+            "type": "origins:change_resource",
+            "resource": "custom:flight_stamina",
+            "change": -5
+        }]
+    },
+    "cooldown": 15,
+    "hud_render": {
+        "sprite_location": "origins:textures/gui/resource_bar.png",
+        "bar_index": 4
+    },
+    "key": {
+        "key": "key.origins.primary_active"
+    },
+    "condition": {
+        "type": "origins:resource",
+        "resource": "custom:flight_stamina",
+        "comparison": ">",
+        "compare_to": 0
+    }
+}

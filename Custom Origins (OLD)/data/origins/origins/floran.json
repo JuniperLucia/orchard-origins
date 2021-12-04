@@ -1,0 +1,17 @@
+{
+    "name": "Floran",
+    "description": "A species of plant people that obtain their nutrients from the sun and gain strength from water.",
+    "order": 1,
+    "impact": 2,
+    "icon": "minecraft:oak_sapling",
+	"powers": [
+        "extraorigins:green_thumb",
+        "extraorigins:photosynthesis",
+        "extraorigins:absorbing",
+        "extraorigins:flammable",
+        "extraorigins:delicate",
+        "extraorigins:nectarivore"
+	],
+    "loading_priority": 100,
+    "hidden": true
+}

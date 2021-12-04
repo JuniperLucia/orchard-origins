@@ -1,0 +1,6 @@
+{
+    "type": "origins:elytra_flight",
+    "name": "Moth Wings",
+    "description": "You can fly like a moth.",
+    "render_elytra": true
+}

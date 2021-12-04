@@ -1,0 +1,7 @@
+{
+    "type": "extraorigins:modify_size",
+    "scale": 0.4,
+    "name": "Small",
+    "description": "You're smaller than a normal Player.",
+    "hidden": true
+}

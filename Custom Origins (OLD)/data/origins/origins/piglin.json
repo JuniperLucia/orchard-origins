@@ -1,0 +1,19 @@
+{
+    "name": "Piglin",
+    "description": "Natives of the Nether, Piglins are very fond of gold and are experts at utilizing it.",
+    "order": 1,
+    "impact": 3,
+    "icon": "minecraft:golden_sword",
+	"powers": [
+        "extraorigins:all_that_glitters",
+        "extraorigins:piglin_neutrality",
+        "extraorigins:crossbow_master",
+        "origins:nether_spawn",
+        "extraorigins:homesick",
+        "origins:carnivore",
+        "extraorigins:flabby",
+        "extraorigins:soul_spooked"
+	],
+    "loading_priority": 100,
+    "hidden": true
+}
