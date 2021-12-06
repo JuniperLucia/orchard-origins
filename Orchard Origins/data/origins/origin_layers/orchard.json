@@ -4,8 +4,9 @@
     "missing_name": "None",
     "missing_description": "h o w .",
     "order": 1,
-    "allow_random": false,
+    "allow_random": true,
     "exclude_random": [
+        "orchard:human"
     ],
     "origins": [
         "orchard:human",
@@ -13,21 +14,21 @@
             "origins": ["legacy:fungus"],
             "condition": {
                 "type": "origins:advancement",
-                "advancement": "advancement:fungus"
+                "advancement": "progression:fungus"
             }
         },
         {
             "origins": ["legacy:moth"],
             "condition": {
                 "type": "origins:advancement",
-                "advancement": "advancement:moth"
+                "advancement": "progression:moth"
             }
         },
         {
             "origins": ["orchard:feline"],
             "condition": {
                 "type": "origins:advancement",
-                "advancement": "advancement:feline"
+                "advancement": "progression:feline"
             }
         }
     ]
