@@ -3,7 +3,7 @@
     "description": "A humanoid mushroom created in an alchemist's laboratory. Once forgotten, it now rules over the decomposers.",
     "order": 6,
     "impact": 2,
-    "icon": "dirt",
+    "icon": "minecraft:mushroom_stem",
     "powers": [
         "legacy:fungus_size",
         "legacy:fungus_poison",

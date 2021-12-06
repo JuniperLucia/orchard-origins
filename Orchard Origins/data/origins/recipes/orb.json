@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "@o@",
+        "o0o",
+        "@o@"
+    ],
+    "key": {
+        "@": {
+            "tag": "minecraft:dyes"
+        },
+        "o": {
+            "item": "minecraft:slime_ball"
+        },
+        "0": {
+            "item": "minecraft:firework_star"
+        }
+    },
+    "result": {
+        "item": "origins:orb_of_origin",
+        "count": 1
+    }
+}

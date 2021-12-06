@@ -1,9 +1,9 @@
 {
     "name": "Moth",
-    "description": "lamp <3",
+    "description": "A small insect that spends its time gazing into lights.",
     "order": 20,
     "impact": 2,
-    "icon": "dirt",
+    "icon": "minecraft:light_gray_candle",
     "powers": [
         "legacy:moth_size",
         "legacy:moth_wings",

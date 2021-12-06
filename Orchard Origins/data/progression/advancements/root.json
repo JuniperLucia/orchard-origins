@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "Orchard Origins: Progression",
+            "color": "white",
+            "bold": false,
+            "obfuscated": false
+        },
+        "description": {
+            "text": "You start from humble beginnings...",
+            "color": "green"
+        },
+        "icon": {
+            "item": "origins:orb_of_origin"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true,
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria": {
+        "Test": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

@@ -9,8 +9,26 @@
     ],
     "origins": [
         "orchard:human",
-        "orchard:feline",
-        "legacy:fungus",
-        "legacy:moth"
+        {
+            "origins": ["legacy:fungus"],
+            "condition": {
+                "type": "origins:advancement",
+                "advancement": "advancement:fungus"
+            }
+        },
+        {
+            "origins": ["legacy:moth"],
+            "condition": {
+                "type": "origins:advancement",
+                "advancement": "advancement:moth"
+            }
+        },
+        {
+            "origins": ["orchard:feline"],
+            "condition": {
+                "type": "origins:advancement",
+                "advancement": "advancement:feline"
+            }
+        }
     ]
 }

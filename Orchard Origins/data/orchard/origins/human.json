@@ -9,5 +9,20 @@
     },
     "powers": [
         "orchard:short"
-    ]
+    ],
+    "upgrades": [{
+        "condition": "progression:feline",
+        "origin": "orchard:feline",
+        "announcement": "You can feel your teeth sharpen and your skin grow a furry coat..."
+    },
+    {
+        "condition": "progression:fungus",
+        "origin": "legacy:fungus",
+        "announcement": "It starts to smell horrid... and your skin starts getting pale..."
+    },
+    {
+        "condition": "progression:moth",
+        "origin": "legacy:moth",
+        "announcement": "As you gaze into the light, you can feel your body tingling..."
+    }]
 }

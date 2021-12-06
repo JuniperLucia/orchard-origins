@@ -1,0 +1,33 @@
+{
+    "display": {
+        "title": {
+            "text": "Origin Progression: Moth",
+            "color": "white",
+            "bold": false,
+            "obfuscated": false
+        },
+        "description": {
+            "text": "Embrace your inner moth.",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:lantern"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "Test": {
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+                "block": "minecraft:lantern",
+                "state": {
+                    "hanging": true
+                }
+            }
+        }
+    },
+    "parent": "progression:root"
+}

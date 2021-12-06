@@ -1,0 +1,10 @@
+{
+    "loading_priority": 99,
+    "name": "Arachnid",
+    "description": "Once a normally small and weak creature, now an apex predator to even the largest of animals.",
+    "order": 1,
+    "impact": 2,
+    "icon": "minecraft:cobweb",
+    "powers": [
+    ]
+}

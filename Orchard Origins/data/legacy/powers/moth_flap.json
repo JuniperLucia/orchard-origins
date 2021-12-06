@@ -10,7 +10,7 @@
         },
         {
             "type": "origins:change_resource",
-            "resource": "custom:flight_stamina",
+            "resource": "legacy:flight_stamina",
             "change": -5
         }]
     },
@@ -24,7 +24,7 @@
     },
     "condition": {
         "type": "origins:resource",
-        "resource": "custom:flight_stamina",
+        "resource": "legacy:flight_stamina",
         "comparison": ">",
         "compare_to": 0
     }

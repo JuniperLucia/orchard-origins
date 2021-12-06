@@ -11,7 +11,7 @@
             "type": "origins:and",
             "actions": [{
                 "type": "origins:change_resource",
-                "resource": "custom:flight_stamina",
+                "resource": "legacy:flight_stamina",
                 "change": 3,
                 "operation": "add"
             },
@@ -22,7 +22,7 @@
         },
         "else_action": {
             "type": "origins:change_resource",
-            "resource": "custom:flight_stamina",
+            "resource": "legacy:flight_stamina",
             "change": 1,
             "operation": "add"
         }
@@ -35,7 +35,7 @@
         },
         {
             "type": "origins:resource",
-            "resource": "custom:flight_stamina",
+            "resource": "legacy:flight_stamina",
             "comparison": "<",
             "compare_to": 100
     }]

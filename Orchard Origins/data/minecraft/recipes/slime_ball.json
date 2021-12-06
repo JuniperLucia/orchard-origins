@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "^x^",
+        " v "
+    ],
+    "key": {
+        "^": {
+            "item": "minecraft:sugar"
+        },
+        "x": {
+            "item": "minecraft:moss_block"
+        },
+        "v": {
+            "item": "minecraft:water_bucket"
+        }
+    },
+    "result": {
+        "item": "minecraft:slime_ball",
+        "count": 8
+    }
+}

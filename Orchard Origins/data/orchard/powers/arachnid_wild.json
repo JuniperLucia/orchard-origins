@@ -1,0 +1,5 @@
+{
+    "name": "Wall Scaler",
+    "description": "Walls can be climbed without a ladder or vines.",
+    "type": "origins:climbing"
+}

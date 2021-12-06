@@ -1,0 +1,32 @@
+{
+    "display": {
+        "title": {
+            "text": "Origin Progression: Fungus",
+            "color": "white",
+            "bold": false,
+            "obfuscated": false
+        },
+        "description": {
+            "text": "Ingest a bowl of some strange stew.",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:brown_mushroom"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "Test": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": ["minecraft:suspicious_stew"]
+                }
+            }
+        }
+    },
+    "parent": "progression:root"
+}
