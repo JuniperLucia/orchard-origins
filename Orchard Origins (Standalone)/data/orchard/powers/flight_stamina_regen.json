@@ -1,0 +1,44 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:if_else",
+        "condition": {
+            "type": "origins:saturation_level",
+            "comparison": ">",
+            "compare_to": 0
+        },
+        "if_action": {
+            "type": "origins:and",
+            "actions": [{
+                "type": "origins:change_resource",
+                "resource": "legacy:flight_stamina",
+                "change": 3,
+                "operation": "add"
+            },
+            {
+                "type": "origins:exhaust",
+                "amount": 1
+            }]
+        },
+        "else_action": {
+            "type": "origins:change_resource",
+            "resource": "legacy:flight_stamina",
+            "change": 1,
+            "operation": "add"
+        }
+    },
+    "interval": 20,
+    "condition": {
+        "type": "origins:and",
+        "conditions": [{
+            "type": "origins:on_block"
+        },
+        {
+            "type": "origins:resource",
+            "resource": "legacy:flight_stamina",
+            "comparison": "<",
+            "compare_to": 100
+    }]
+    },
+    "hidden": true
+}

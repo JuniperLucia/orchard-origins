@@ -1,6 +1,0 @@
-{
-    "type": "origins:creative_flight",
-    "condition": {
-        "type": "origins:on_fire"
-    }
-}

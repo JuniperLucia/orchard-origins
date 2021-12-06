@@ -1,0 +1,14 @@
+{
+    "name": "Landing on your Feet",
+    "description": "You always land on your feet, decreasing fall damage significantly.",
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+        "type": "origins:name",
+        "name": "fall"
+    },
+    "modifiers": {
+        "name": "Negate Some Fall Damage",
+        "operation": "addition",
+        "value": -12
+    }
+}

@@ -5,11 +5,11 @@
     "impact": 2,
     "icon": "minecraft:mushroom_stem",
     "powers": [
-        "orchard:fungus_size",
-        "orchard:fungus_poison",
-        "orchard:fungus_resistance",
-        "orchard:fungus_spores",
-        "orchard:fungus_weakness"
+        "legacy:fungus_size",
+        "legacy:fungus_poison",
+        "legacy:fungus_resistance",
+        "legacy:fungus_spores",
+        "legacy:fungus_weakness"
     ],
     "loading_priority": 100
 }

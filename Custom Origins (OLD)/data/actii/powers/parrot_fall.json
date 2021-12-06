@@ -1,9 +1,0 @@
-{
-  "type": "origins:invulnerability",
-  "name": "Smooth Landing",
-  "description": "Never take fall damage.",
-  "damage_condition": {
-    "type": "origins:name",
-    "name": "fall"
-  }
-}

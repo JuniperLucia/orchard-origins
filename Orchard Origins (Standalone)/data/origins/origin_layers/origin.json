@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "origins": [
+        "orchard:feline",
+        "orchard:fungus",
+        "orchard:moth"
+    ]
+}
