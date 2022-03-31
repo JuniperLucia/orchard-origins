@@ -7,6 +7,6 @@ That being said, any origins you specifically like or wish to modify and use for
 
 ### Contributors
 
-> #### Sienna (TaloLiveYT)
+> #### KawaiiFruitGummy (TaloLiveYT)
 >
 > A good friend of mine and novice developer.
